@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-around;
+    height: 144px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    /* opacity: 0.8; */
+    /* background-color: black; */
+}
+
+.logo{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Unbounded', cursive;
+    text-decoration: none;
+    color: #d4ce2d;
+}
+
+.links{
+    display: flex;
+    width: 645px;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 900;
+    color: #deda81;
+    text-decoration: none;
+    font-family: 'Unbounded', cursive;
+    cursor: pointer;
+
+}
+
+.nav-link:hover{
+    color: #d4ce2d;
+}
+
+.hamburger{
+    
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.line{
+    width: 30px;
+    height: 3px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+@media ( max-width : 1111px)
+{
+    .links{
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+        /* background-color: blue; */
+    }
+}
+
+@media ( max-width : 720px)
+{
+    .links{
+        display: flex;
+        width: 350px;
+        justify-content: space-between;
+    }
+}
+
+@media ( max-width : 600px)
+{
+    
+
+    .links{
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        top: 15vh;
+        background-color: #d4ce2d;
+        /* display: flex; */
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transition: transform 0.2s ease-in-out;
+        
+    }
+
+    .responsive_nav{
+        display: flex;
+    }
+
+    .nav-link{
+        color: #181717;
+        font-size: 2rem;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    
+}
+

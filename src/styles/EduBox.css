@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Unbounded";
+}
+
+.edu-class-container{
+    /* width: 846px;
+    height: 145px; */
+    display: flex;
+    position: relative;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.edu-class{
+    font-size: 32px;
+    color: #d9d9d9;
+    font-weight: 900;
+}
+
+.edu-marks-container{
+    font-size: 29px;
+    color: #d9d9d9;
+    font-weight: 500;
+}
+
+.edu-marks{
+    color: #d4ce2d;
+}
+
+.edu-class-container::before{
+    content: '';
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    right: calc(100% + 26px);
+    top: 0;
+    background-color: #d4ce2d;
+    border: 5px solid white;
+}
+
+@media (max-width : 1010px){
+
+    .edu-class{
+        font-size: 2rem;
+
+    }
+    
+    .edu-marks-container{
+        font-size: 1.5rem;
+
+    }
+
+    .edu-class-container::before{
+        content: '';
+        position: absolute;
+        width: 43px;
+        height: 43px;
+        border-radius: 50%;
+        right: calc(100% + 35px);
+        top: 0;
+        background-color: #d4ce2d;
+        border: 3px solid white;
+    }
+}
+
+@media (max-width : 600px){
+    .edu-class{
+        font-size: 1.5rem;
+
+    }
+    
+    .edu-marks-container{
+        font-size: 1rem;
+
+    }
+
+    .edu-class-container::before{
+        content: '';
+        position: absolute;
+        width: 43px;
+        height: 43px;
+        border-radius: 50%;
+        right: calc(100% + 36px);
+        top: 0;
+        background-color: #d4ce2d;
+        border: 3px solid white;
+    }
+}
+
+@media (max-width : 495px){
+    .edu-class{
+        font-size: 1.2rem;
+
+    }
+    
+    .edu-marks-container{
+        font-size: 1rem;
+
+    }
+
+    
+
+    
+}
+
+@media (max-width : 420px){
+    .edu-class{
+        font-size: 1rem;
+
+    }
+    
+    .edu-marks-container{
+        font-size: 0.8rem;
+
+    }
+
+    
+
+    
+}

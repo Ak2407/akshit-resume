@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Unbounded";
+}
+
+.project-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+.project{
+    height: 600px;
+    width: 1000px;
+    border-radius: 49px;
+    box-shadow: 13px 16px black;
+    -webkit-transform: scale(0.7,0.7);
+
+}
+
+/* 48 25 */
+
+.project-info-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+
+    /* background-color: red; */
+    width: 478px;
+}
+
+.project-name{
+    font-size: 48px;
+    color: #d4ce2d;
+    
+}
+
+.project-info{
+    font-size: 25px;
+    color: #d9d9d9;
+    font-weight: 700;
+}
+
+/* .project-container, .project-info-section{
+    transition: all 1s ease-in-out;
+} */
+
+.project-container:hover{
+    opacity: 0.2;
+    transition: all 0.2s ease;
+}
+
+@media (max-width:1536px){
+    
+
+    .project-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .project-div{
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+    }
+
+    .project-info-section{
+        margin-right: 100px;
+    }
+
+   
+}
+
+@media (max-width: 1118px) {
+
+    .project-info{
+        display: none;
+    }
+
+    .project-div{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items :center;
+        height: 500px;
+        justify-content: center;
+        width: 80%;
+    }
+
+    
+
+    .project-info-section{
+        width: 100%;
+        margin-left: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 0;
+
+    }
+
+    .project-name{
+        font-size: 5vh;
+    }
+    
+}
+
+@media (max-width : 730px){
+    .project{
+    -webkit-transform: scale(0.5,0.5);
+
+    }
+}
+
+@media (max-width : 615px){
+    .project{
+    -webkit-transform: scale(0.5,0.5);
+
+    }
+}
+
+@media (max-width : 504px){
+    .project{
+        -webkit-transform: scale(0.35,0.35);
+
+    }
+    .project-name{
+        font-size: 1.5rem;
+        /* margin-bottom: 100px; */
+    }
+
+    .project-div{
+        padding: 0px;
+        height: 100%;
+    }
+
+    
+
+    .project-container{
+        height: 300px;
+    }
+
+    
+}

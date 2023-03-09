@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Unbounded";
+}
+
+.edu-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 1050px;
+    width: 100%;
+    border-top: 10px solid antiquewhite;
+}
+
+.edu-heading{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 96px;
+    color: #d9d9d9;
+}
+
+.edu-timeline-container{
+    /* background-color: blue; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: 20px solid #d4ce2d;
+    padding-top: 10px;
+    padding-left: 50px;
+    height: 722px;
+    width: 952px;
+}
+
+@media (max-width : 1145px){
+
+    .edu-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .edu-heading{
+        writing-mode :horizontal-tb;
+        transform: rotate(360deg);
+        margin-bottom: 50px;
+
+    }
+
+    
+
+    
+}
+
+@media ( max-width : 730px){
+    .edu-heading{
+        font-size: 4rem;
+    }
+
+
+}
+
+@media ( max-width : 495px){
+    .edu-heading{
+        font-size: 3rem;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width : 1010px){
+
+    .edu-timeline-container{
+        /* background-color: red; */
+        width: 50%;
+        align-items: center;
+    }
+}
+
