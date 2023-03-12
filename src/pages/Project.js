@@ -34,7 +34,7 @@ export default function Project() {
         {active === 3 ? <ProjectCard
           img={project2}
           cardName="CODE ALONG"
-          destination="https://along-code-ck9ywuswb-ak2407.vercel.app/"
+          destination="https://axit-code-along.netlify.app/"
           info="This app helps you to connect with a(or many) friend or colleague of yours and code along in real time with a real time editor . Built using MERN stack and socket.io"
         /> : <></>}
         
