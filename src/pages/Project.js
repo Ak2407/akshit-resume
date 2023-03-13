@@ -1,4 +1,5 @@
 import "../styles/Project.css";
+import {projects} from '../constants'
 import project1 from "../assets/images/project1.png";
 import project2 from "../assets/images/project2.jpg";
 import project3 from "../assets/images/project3.jpg";
@@ -19,7 +20,7 @@ export default function Project() {
         <h1 className="work-heading">MY WORK</h1>
       </div>
       <div className="work-project-container">
-      {active === 1 ? <ProjectCard
+      {/* {active === 1 ? <ProjectCard
           img={project4}
           cardName="BLAWG"
           destination="https://blawg-front.vercel.app/"
@@ -44,8 +45,13 @@ export default function Project() {
           destination="https://shoes-shopping-eta.vercel.app/"
           info="An extensive application which deals with selling as well as buying of products just like an e-commerce webstie . Built using MERN stack"
         /> : <></>}
+
         
-        {/* img, name, info */}
+         */}
+
+        {projects.map((project, index) => (
+          active === index+1 ? <ProjectCard key={`project-${index}`} index={index+1} {...project} /> : <></>
+        ))}
       </div>
       <div className="project-arrows-container">
         <a>
