@@ -10,7 +10,7 @@ export default function Education(){
             <div className="edu-timeline-container">
                 <EduBox standard="10TH STANDARD FROM AES N.D" marks="92%" finish="APRIL 2018"/>
                 <EduBox standard="12TH STANDARD FROM AES N.D" marks="94%" finish="APRIL 2020"/>
-                <EduBox standard="B.tech IT FROM BVP N.D" marks="9.4CGPA" finish="ONGOING"/>
+                <EduBox standard="B.tech IT FROM BVP N.D" marks="9.528CGPA" finish="EXPECTED 2024"/>
             </div>
         </div>
 
