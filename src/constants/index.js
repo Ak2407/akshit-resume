@@ -4,6 +4,7 @@ import project1 from '../assets/images/project1.png'
 import project2 from '../assets/images/project2.jpg'
 import project3 from '../assets/images/project3.jpg'
 import project4 from '../assets/images/project4.jpg'
+import project5 from '../assets/images/project5.png'
 
 const projects = [
   {
@@ -11,6 +12,12 @@ const projects = [
     info: "A blogging website with user authentication and bookmarks functionality with state management using REDUX toolkit",
     img: project4,
     destination: "https://blawg-front.vercel.app/",
+  },
+  {
+    cardName: "ADMIN DASHBOARD",
+    info: "A modern designed dashboard too keep track of your daily activities and tasks .Built using Next.js 13, Tailwind CSS and Recharts",
+    img: project5,
+    destination: "https://akshit-admin-dashboard.vercel.app/",
   },
   {
     cardName: "RESUME WEBSITE",
