@@ -1,10 +1,11 @@
 // import { project1, project2, project3, project4 } from "../assets/images";
 
-import project1 from '../assets/images/project1.png'
-import project2 from '../assets/images/project2.jpg'
-import project3 from '../assets/images/project3.jpg'
-import project4 from '../assets/images/project4.jpg'
-import project5 from '../assets/images/project5.png'
+import project1 from "../assets/images/project1.png";
+import project2 from "../assets/images/project2.jpg";
+import project3 from "../assets/images/project3.jpg";
+import project4 from "../assets/images/project4.jpg";
+import project5 from "../assets/images/project5.png";
+import project6 from "../assets/images/project6.png";
 
 const projects = [
   {
@@ -18,6 +19,12 @@ const projects = [
     info: "A modern designed dashboard too keep track of your daily activities and tasks .Built using Next.js 13, Tailwind CSS and Recharts",
     img: project5,
     destination: "https://akshit-admin-dashboard.vercel.app/",
+  },
+  {
+    cardName: "SUMZ",
+    info: "An article summarizer which summarizes the article just by providing the link to the article using OpenAI API. Built using React and Tailwind and API from rapidAPI",
+    img: project6,
+    destination: "https://akshit-summarizer.vercel.app/",
   },
   {
     cardName: "RESUME WEBSITE",

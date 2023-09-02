@@ -1,9 +1,5 @@
 import "../styles/Project.css";
 import {projects} from '../constants'
-import project1 from "../assets/images/project1.png";
-import project2 from "../assets/images/project2.jpg";
-import project3 from "../assets/images/project3.jpg";
-import project4 from "../assets/images/project4.jpg";
 import arrowR from "../assets/images/arrowR.png";
 import arrowL from "../assets/images/arrowL.png";
 import { ProjectCard } from "../components/ProjectCard";
@@ -59,7 +55,7 @@ export default function Project() {
           <img onClick={() => {active === 1 ? setActive(active) :setActive(active - 1) }} className="project-arrow" src={arrowL}></img>
         </a>
         <a>
-          <img onClick={() => {active === 5 ? setActive(active) :setActive(active + 1) }} className="project-arrow" src={arrowR}></img>
+          <img onClick={() => {active === 6 ? setActive(active) :setActive(active + 1) }} className="project-arrow" src={arrowR}></img>
         </a>
       </div>
       </div>
