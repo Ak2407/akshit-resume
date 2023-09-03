@@ -6,6 +6,7 @@ import project3 from "../assets/images/project3.jpg";
 import project4 from "../assets/images/project4.jpg";
 import project5 from "../assets/images/project5.png";
 import project6 from "../assets/images/project6.png";
+import project7 from "../assets/images/project7.png";
 
 const projects = [
   {
@@ -25,6 +26,12 @@ const projects = [
     info: "An article summarizer which summarizes the article just by providing the link to the article using OpenAI API. Built using React and Tailwind and API from rapidAPI",
     img: project6,
     destination: "https://akshit-summarizer.vercel.app/",
+  },
+  {
+    cardName: "CAR HUB",
+    info: "A car rental website which allows to browse through cars. Built using NextJS 13 Tailwind CSS and api is from RapidAPI.",
+    img: project7,
+    destination: "https://akshit-carhub.vercel.app/",
   },
   {
     cardName: "RESUME WEBSITE",
