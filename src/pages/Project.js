@@ -55,7 +55,7 @@ export default function Project() {
           <img onClick={() => {active === 1 ? setActive(active) :setActive(active - 1) }} className="project-arrow" src={arrowL}></img>
         </a>
         <a>
-          <img onClick={() => {active === 7 ? setActive(active) :setActive(active + 1) }} className="project-arrow" src={arrowR}></img>
+          <img onClick={() => {active === 8 ? setActive(active) :setActive(active + 1) }} className="project-arrow" src={arrowR}></img>
         </a>
       </div>
       </div>

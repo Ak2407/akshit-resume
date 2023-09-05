@@ -7,6 +7,7 @@ import project4 from "../assets/images/project4.jpg";
 import project5 from "../assets/images/project5.png";
 import project6 from "../assets/images/project6.png";
 import project7 from "../assets/images/project7.png";
+import project8 from "../assets/images/project8.png";
 
 const projects = [
   {
@@ -20,6 +21,12 @@ const projects = [
     info: "A modern designed dashboard too keep track of your daily activities and tasks .Built using Next.js 13, Tailwind CSS and Recharts",
     img: project5,
     destination: "https://akshit-admin-dashboard.vercel.app/",
+  },
+  {
+    cardName: "FOREX FUSION",
+    info: "Currency Converter built using Next13 (With Typescript) server components, NextAuth for authorization, Tailwind for styling and RapidAPI for fetching the data",
+    img: project8,
+    destination: "https://forex-fusion.vercel.app/",
   },
   {
     cardName: "SUMZ",
